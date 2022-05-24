@@ -26,7 +26,7 @@
         "phpunit/php-text-template": "~1.2",
         "phpunit/php-code-coverage": "^4.0.4",
         "phpunit/php-timer": "^1.0.6",
-        "phpunit/phpunit-mock-objects": "^3.2",
+        "phpunit/phpunit-mock-objects": "dev-php7#4890d90e37a892fd34efad47ac96376b34f9e7a3 as 3.4.4",
         "phpspec/prophecy": "^1.6.2",
         "symfony/yaml": "~2.1|~3.0|~4.0",
         "sebastian/comparator": "^1.2.4",
@@ -82,5 +82,11 @@
         "branch-alias": {
             "dev-master": "5.7.x-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Virtuvia/phpunit-mock-objects.git"
+        }
+    ]
 }
