@@ -500,9 +500,9 @@ class PHPUnit_Util_Configuration
         foreach (['var', 'post', 'get', 'cookie', 'server', 'files', 'request'] as $array) {
             // See https://github.com/sebastianbergmann/phpunit/issues/277
             switch ($array) {
-                case 'var':
-                    $target = &$GLOBALS;
-                    break;
+//                case 'var':
+//                    $target = &$GLOBALS;
+//                    break;
 
                 case 'server':
                     $target = &$_SERVER;
